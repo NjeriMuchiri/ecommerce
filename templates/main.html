@@ -1,15 +1,16 @@
-{% extends 'main.html' %}
 {% load static %}
-{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link rel="shortcut icon" href="{% static 'images/fav.ico' %}" type="image/png">
+    <title>NUALOCAL</title>
 </head>
 <body>
-    
+    <h3>store</h3>
+    {% block content %}
+
+    {% endblock %}
 </body>
 </html>
-{% endblock %}
